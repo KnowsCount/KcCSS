@@ -31,13 +31,20 @@ CSS 大小仅 25KB。挂在服务器上，简直不要太快。
 
 可以参考我的[站点](http://ebooks.knowscount.cc)观察她的特性。
 
+## Usage
+
+1. clone 这个仓库:
+```bash
+git clone https://github.com/KnowsCount/KcCSS.git
+```
+2. 移动 `style.css` 至需要之处（并且可以编辑，请请请你如果写出了甚么新功能就开个 pull request 提交代码罢）
 
 
 ## To-Dos
 
-[ ] 完成代码批注
+[] 完成代码批注
 
-[ ] 作出更多样式
+[] 作出更多样式
 
 ## Buy Me A Coffee
 
