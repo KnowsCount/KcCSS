@@ -26,7 +26,7 @@ When the front-end developers are trying to develope a website, spending a whole
 
 - ...
 
-**Note: The project is still at the beginning, and thus does not have all features able to reach. **
+**Note: The project is still at the beginning, and thus does not have all features able to reach.**
 
 ****
 
@@ -34,13 +34,20 @@ When the front-end developers are trying to develope a website, spending a whole
 
 One can always take a look [here](http://ebooks.knowscount.cc) as a demo of her. 
 
+## Usage
+
+1. clone this repo:
+```bash
+git clone https://github.com/KnowsCount/KcCSS.git
+```
+2. move style.css to wherever needed (and edit whatev one wants, do open a pull request to commit your code if any new functionality are developed pls pls pls)
 
 
 ## To-Dos
 
-[ ] Code annotation
+[] Code annotation
 
-[ ] Make more styles
+[] Make more styles
 
 ## Buy Me A Coffee
 
