@@ -35,19 +35,19 @@ h3 { font-size: 1.6rem; }
 h4 { font-size: 1.4rem; }
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1rem; }
-.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.math-block, .rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
 .hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+.blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
-sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+sup.footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.footnote a, sup.footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 32px; }
+table.table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
 .CodeMirror-linenumber { }
 .CodeMirror { text-align: left; }
@@ -59,16 +59,16 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-#write .md-fences.mock-cm { white-space: pre-wrap; }
-.md-fences.md-fences-with-lineno { padding-left: 0px; }
-#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
-.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .fences.mock-cm { white-space: pre-wrap; }
+.fences.fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .fences.mock-cm { white-space: pre; overflow-x: auto; }
+.fences.mock-cm.fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+.reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -88,57 +88,57 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
-p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
-p > .md-image:only-child { display: inline-block; width: 100%; }
+pre.meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .image:only-child:not(.img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .image:only-child:not(.img-error) img { left: -2em; position: relative; }
+p > .image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
-.md-math-block { width: 100%; }
-.md-math-block:not(:empty)::after { display: none; }
+.math-block { width: 100%; }
+.math-block:not(:empty)::after { display: none; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
-.md-task-list-item { position: relative; list-style-type: none; }
-.task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.task-list-item { position: relative; list-style-type: none; }
+.task-list-item.task-list-item { padding-left: 0px; }
+.task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc-content::after, .md-toc::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); }
-.md-toc-item a { text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+.toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.toc-content { position: relative; margin-left: 0px; }
+.toc-content::after, .toc::after { display: none; }
+.toc-item { display: block; color: rgb(65, 131, 196); }
+.toc-item a { text-decoration: none; }
+.toc-inner:hover { text-decoration: underline; }
+.toc-inner { display: inline-block; cursor: pointer; }
+.toc-h1 .toc-inner { margin-left: 0px; font-weight: 700; }
+.toc-h2 .toc-inner { margin-left: 2em; }
+.toc-h3 .toc-inner { margin-left: 4em; }
+.toc-h4 .toc-inner { margin-left: 6em; }
+.toc-h5 .toc-inner { margin-left: 8em; }
+.toc-h6 .toc-inner { margin-left: 10em; }
 @media screen and (max-width: 48em) { 
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+  .toc-h3 .toc-inner { margin-left: 3.5em; }
+  .toc-h4 .toc-inner { margin-left: 5em; }
+  .toc-h5 .toc-inner { margin-left: 6.5em; }
+  .toc-h6 .toc-inner { margin-left: 8em; }
 }
-a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+a.toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: "."; }
+.attr { display: none; }
+.fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+.comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
 code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
+a.print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
 .MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
 .MathJax_SVG * { transition: none; }
 .MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
-.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg { max-width: 100%; }
+.os-windows.monocolor-emoji .emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom-width: 0px; }
@@ -147,8 +147,8 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 svg[id^="mermaidChart"] { line-height: 1em; }
 mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+.html-inline .plain, .html-inline strong, mark .inline-math, mark strong { color: inherit; }
+mark .meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
 /* cyrillic-ext */
@@ -257,7 +257,7 @@ a {
 }
 
 /* 目录 */
-#write a.md-toc-inner {
+#write a.toc-inner {
   line-height: 1.6;
   white-space: pre-line;
   font-size: 12px;
@@ -358,8 +358,8 @@ h3:before {
 }
 
 /* 三级四级标题点击后左边的提示图标 */
-#write > h3.md-focus:before,
-#write > h4.md-focus:before {
+#write > h3.focus:before,
+#write > h4.focus:before {
   width: auto;
   height: auto;
   background-color: var(--main-5);
@@ -573,7 +573,7 @@ table tr td:last-child {
 }
 
 /* 代码块 */
-#write .md-fences {
+#write .fences {
   -webkit-font-smoothing: initial;
   margin: 1.8rem 0 2rem !important;
   line-height: 1.55rem;
@@ -603,18 +603,18 @@ tt {
   background-color: var(--main-1);
 }
 
-#write .md-footnote {
+#write .footnote {
   color: var(--main-5);
   background-color: var(--main-1);
 }
 
 /* 流程图块 */
-#write .md-diagram-panel {
+#write .diagram-panel {
   position: relative;
   margin: 24px auto;
 }
 
-#write .md-focus .md-diagram-panel {
+#write .focus .diagram-panel {
   border: 1px solid var(--main-4);
   border-radius: 4px;
 }
@@ -635,13 +635,13 @@ tt {
 }
 
 /* 任务列表小方框 */
-.md-task-list-item > input {
+.task-list-item > input {
   margin-left: -1.3em;
   margin-top: 0.3rem;
   -webkit-appearance: none;
 }
 
-.md-task-list-item > input:before {
+.task-list-item > input:before {
   content: '';
   display: inline-block;
   width: 0.875rem;
@@ -656,8 +656,8 @@ tt {
   transition: all 0.2s linear;
 }
 
-.md-task-list-item > input:checked:before,
-.md-task-list-item > input[checked]:before {
+.task-list-item > input:checked:before,
+.task-list-item > input[checked]:before {
   content: '\2714';
   font-size: 0.625rem;
   color: var(--mid-1);
@@ -680,11 +680,11 @@ tt {
   }
 }
 
-/* .md-fences {
+/* .fences {
   background-color: #f8f8f8;
 } */
 
-#write pre.md-meta-block {
+#write pre.meta-block {
   /* padding: 1rem; */
   font-size: 85%;
   line-height: 1.45;
@@ -699,42 +699,42 @@ tt {
   bottom: 0.375rem;
 }
 
-#write > h3.md-focus:before {
+#write > h3.focus:before {
   left: -1.5625rem;
   top: 0.375rem;
 }
 
-#write > h4.md-focus:before {
+#write > h4.focus:before {
   left: -1.5625rem;
   top: 0.285714286rem;
 }
 
-#write > h5.md-focus:before {
+#write > h5.focus:before {
   left: -1.5625rem;
   top: 0.285714286rem;
 }
 
-#write > h6.md-focus:before {
+#write > h6.focus:before {
   left: -1.5625rem;
   top: 0.285714286rem;
 }
 
 /*--- 图片 ---*/
-.md-image {
+.image {
   margin: 24px auto;
   border-radius: 4px;
 }
 
-.md-image img {
+.image img {
   border-radius: 4px;
 }
 
 /* 当 “![shadow-随便写]()”写时，会有阴影 */
-.md-image img[alt|='shadow'] {
+.image img[alt|='shadow'] {
   box-shadow: 0 4px 24px -6px #ddd;
 }
 
-.md-image > .md-meta {
+.image > .meta {
   border-radius: 3px;
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   padding: 2px 0 0 4px;
@@ -743,17 +743,17 @@ tt {
 }
 
 /* emoji */
-.md-emoji-span:before {
+.emoji-span:before {
   content: attr(data-emoji);
   font-weight: 400;
   vertical-align: inherit;
 }
 
-.md-tag {
+.tag {
   color: inherit;
 }
 
-.md-toc {
+.toc {
   margin-top: 20px;
   padding-bottom: 20px;
 }
@@ -774,7 +774,7 @@ tt {
   border-width: 1px;
 }
 
-#md-notification:before {
+#notification:before {
   top: 10px;
 }
 
@@ -800,7 +800,7 @@ footer {
   background-color: var(--side-bar-bg-color);
 }
 
-.md-lang {
+.lang {
   color: #b4654d;
 }
 
