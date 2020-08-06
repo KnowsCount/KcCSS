@@ -10,9 +10,9 @@
 
 Whilst being a responsive Framework, it is also easy to use. 
 
-### Fast, as a lightning. 
+### Fast, as lightning. 
 
-The only 25KB-Sized CSS file is just gonna be so fast online. 
+The only 24KB-Sized CSS file is just gonna be so fast online. 
 
 ---
 
@@ -45,9 +45,8 @@ git clone https://github.com/KnowsCount/KcCSS.git
 
 ## To-Dos
 
-[] Code annotation
-
-[] Make more styles
+- [] Code annotation
+- [] Make more styles
 
 ## Buy Me A Coffee
 
