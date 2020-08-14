@@ -12,7 +12,7 @@ Whilst being a responsive Framework, it is also easy to use.
 
 ### Fast, as lightning. 
 
-The only 24KB-Sized CSS file is just gonna be so fast online. 
+The only 26KB-Sized CSS file is just gonna be fast online. 
 
 ---
 
@@ -20,7 +20,7 @@ The only 24KB-Sized CSS file is just gonna be so fast online.
 
 When the front-end developers are trying to develope a website, spending a whole bunch of time on developing a CSS stylesheet that solves the **compatibility of browsers**, **gorgeousness**, and the **size of file**. And this here is an open-source solution: a CSS framework. However, KcCSS is a 
 
-- Mordern, Minimal CSS framework, born for front-end development with a need of conciseness.
+- Minimal, Concise CSS framework, born for front-end development where text is what is impoartant.
 - Lightweight code to 'make loading fast again'.
 - Compatible with main browsers and in-App browsers. 
 
@@ -45,8 +45,8 @@ git clone https://github.com/KnowsCount/KcCSS.git
 
 ## To-Dos
 
-- [] Code annotation
-- [] Make more styles
+- [ ] Code annotation
+- [ ] Make more styles
 
 ## Buy Me A Coffee
 
