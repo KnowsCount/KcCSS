@@ -69,745 +69,724 @@ a:active, a:hover {
 	text-indent: 2em; 
 }
 #write.first-line-indent li p, #write.first-line-indent p * {
-		text-indent: 0px;
+	text-indent: 0px;
 }
 
 #write.first-line-indent li {
-		margin-left: 2em;
+	margin-left: 2em;
 }
 
 .for-image #write {
-		padding-left: 8px;
-		padding-right: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 body.export {
-		padding-left: 30px;
-		padding-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .export .footnote-line, .export li, .export p {
-		white-space: pre-wrap;
+	white-space: pre-wrap;
 }
 
 @media screen and (max-width: 500px) {
-		body.export {
-				padding-left: 0px;
-				padding-right: 0px;
-		}
+	body.export {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
-		#write {
-				padding-left: 20px;
-				padding-right: 20px;
-		}
+	#write {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
-		.CodeMirror-sizer {
-				margin-left: 0px !important;
-		}
+	.CodeMirror-sizer {
+		margin-left: 0px !important;
+	}
 
-		.CodeMirror-gutters {
-				display: none !important;
-		}
+	.CodeMirror-gutters {
+		display: none !important;
+	}
 }
 
 #write li > figure:last-child {
-		margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 #write ol, #write ul {
-		position: relative;
+	position: relative;
 }
 
 img {
-		max-width: 100%;
-		vertical-align: middle;
+	max-width: 100%;
+	vertical-align: middle;
 }
 
 button, input, select, textarea {
-		color: inherit;
-		font-family: inherit;
-		font-size: inherit;
-		font-style: inherit;
-		font-variant-caps: inherit;
-		font-weight: inherit;
-		font-stretch: inherit;
-		line-height: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-variant-caps: inherit;
+	font-weight: inherit;
+	font-stretch: inherit;
+	line-height: inherit;
 }
 
 input[type="checkbox"], input[type="radio"] {
-		line-height: normal;
-		padding: 0px;
+	line-height: normal;
+	padding: 0px;
 }
 
 *, ::after, ::before {
-		box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre {
-		width: inherit;
+	width: inherit;
 }
 
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p {
-		position: relative;
+	position: relative;
 }
 
 p {
-		line-height: inherit;
+	line-height: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
-		break-after: avoid-page;
-		break-inside: avoid;
-		orphans: 4;
+	break-after: avoid-page;
+	break-inside: avoid;
+	orphans: 4;
 }
 
 p {
-		orphans: 4;
+	orphans: 4;
 }
 
 h1 {
-		font-size: 2rem;
+	font-size: 2rem;
 }
 
 h2 {
-		font-size: 1.8rem;
+	font-size: 1.8rem;
 }
 
 h3 {
-		font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 
 h4 {
-		font-size: 1.4rem;
+	font-size: 1.4rem;
 }
 
 h5 {
-		font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 h6 {
-		font-size: 1rem;
+	font-size: 1rem;
 }
 
 .math-block, .rawblock, h1, h2, h3, h4, h5, h6, p {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .hidden {
-		display: none;
+	display: none;
 }
 
 .blockmeta {
-		color: rgb(204, 204, 204);
-		font-weight: 700;
-		font-style: italic;
+	color: rgb(204, 204, 204);
+	font-weight: 700;
+	font-style: italic;
 }
 
 a {
-		cursor: pointer;
+	cursor: pointer;
 }
 
 sup.footnote {
-		padding: 2px 4px;
-		background-color: rgba(238, 238, 238, 0.701961);
-		color: rgb(85, 85, 85);
-		border-top-left-radius: 4px;
-		border-top-right-radius: 4px;
-		border-bottom-right-radius: 4px;
-		border-bottom-left-radius: 4px;
-		cursor: pointer;
+	padding: 2px 4px;
+	background-color: rgba(238, 238, 238, 0.701961);
+	color: rgb(85, 85, 85);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	cursor: pointer;
 }
 
 sup.footnote a, sup.footnote a:hover {
-		color: inherit;
-		text-transform: inherit;
-		text-decoration: inherit;
+	color: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
 }
 
 #write input[type="checkbox"] {
-		cursor: pointer;
-		width: inherit;
-		height: inherit;
+	cursor: pointer;
+	width: inherit;
+	height: inherit;
 }
 
 figure {
-		overflow-x: auto;
-		margin: 1.2em 0px;
-		max-width: calc(100% + 16px);
-		padding: 0px;
+	overflow-x: auto;
+	margin: 1.2em 0px;
+	max-width: calc(100% + 16px);
+	padding: 0px;
 }
 
 figure > table {
-		margin: 0px;
+	margin: 0px;
 }
 
 tr {
-		break-inside: avoid;
-		break-after: auto;
+	break-inside: avoid;
+	break-after: auto;
 }
 
 thead {
-		display: table-header-group;
-}
-
-table {
-		border-collapse: collapse;
-		border-spacing: 0px;
-		width: 100%;
-		overflow: auto;
-		break-inside: auto;
-		text-align: left;
-}
-
-table.table td {
-		min-width: 32px;
+	display: table-header-group;
 }
 
 .CodeMirror-gutters {
-		border-right-width: 0px;
-		background-color: inherit;
-}
-
-.CodeMirror-linenumber {
+	border-right-width: 0px;
+	background-color: inherit;
 }
 
 .CodeMirror {
-		text-align: left;
+	text-align: left;
 }
 
 .CodeMirror-placeholder {
-		opacity: 0.3;
+	opacity: 0.3;
 }
 
 .CodeMirror pre {
-		padding: 0px 4px;
+	padding: 0px 4px;
 }
 
 .CodeMirror-lines {
-		padding: 0px;
+	padding: 0px;
 }
 
 div.hr:focus {
-		cursor: none;
+	cursor: none;
 }
 
 #write pre {
-		white-space: pre-wrap;
+	white-space: pre-wrap;
 }
 
 #write.fences-no-line-wrapping pre {
-		white-space: pre;
+	white-space: pre;
 }
 
 #write pre.ty-contain-cm {
-		white-space: normal;
+	white-space: normal;
 }
 
 .CodeMirror-gutters {
-		margin-right: 4px;
+	margin-right: 4px;
 }
 
 .fences {
-		font-size: 0.9rem;
-		display: block;
-		break-inside: avoid;
-		text-align: left;
-		overflow: visible;
-		white-space: pre;
-		background-image: inherit;
-		background-size: inherit;
-		background-attachment: inherit;
-		background-origin: inherit;
-		background-clip: inherit;
-		background-color: inherit;
-		position: relative !important;
-		background-position: inherit inherit;
-		background-repeat: inherit inherit;
+	font-size: 0.9rem;
+	display: block;
+	break-inside: avoid;
+	text-align: left;
+	overflow: visible;
+	white-space: pre;
+	background-image: inherit;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+	background-clip: inherit;
+	background-color: inherit;
+	position: relative !important;
+	background-position: inherit inherit;
+	background-repeat: inherit inherit;
 }
 
 .diagram-panel {
-		width: 100%;
-		margin-top: 10px;
-		text-align: center;
-		padding-top: 0px;
-		padding-bottom: 8px;
-		overflow-x: auto;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	overflow-x: auto;
 }
 
 #write .fences.mock-cm {
-		white-space: pre-wrap;
+	white-space: pre-wrap;
 }
 
 .fences.fences-with-lineno {
-		padding-left: 0px;
+	padding-left: 0px;
 }
 
 #write.fences-no-line-wrapping .fences.mock-cm {
-		white-space: pre;
-		overflow-x: auto;
+	white-space: pre;
+	overflow-x: auto;
 }
 
 .fences.mock-cm.fences-with-lineno {
-		padding-left: 8px;
+	padding-left: 8px;
 }
 
 .CodeMirror-line, twitterwidget {
-		break-inside: avoid;
+	break-inside: avoid;
 }
 
 .footnotes {
-		opacity: 0.8;
-		font-size: 0.9rem;
-		margin-top: 1em;
-		margin-bottom: 1em;
+	opacity: 0.8;
+	font-size: 0.9rem;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .footnotes + .footnotes {
-		margin-top: 0px;
+	margin-top: 0px;
 }
 
 .reset {
-		margin: 0px;
-		padding: 0px;
-		border: 0px;
-		outline: 0px;
-		vertical-align: top;
-		text-decoration: none;
-		text-shadow: none;
-		float: none;
-		position: static;
-		width: auto;
-		height: auto;
-		white-space: nowrap;
-		cursor: inherit;
-		line-height: normal;
-		font-weight: 400;
-		text-align: left;
-		box-sizing: content-box;
-		direction: ltr;
-		background-position: 0px 0px;
-		background-repeat: initial initial;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	vertical-align: top;
+	text-decoration: none;
+	text-shadow: none;
+	float: none;
+	position: static;
+	width: auto;
+	height: auto;
+	white-space: nowrap;
+	cursor: inherit;
+	line-height: normal;
+	font-weight: 400;
+	text-align: left;
+	box-sizing: content-box;
+	direction: ltr;
+	background-position: 0px 0px;
+	background-repeat: initial initial;
 }
 
 li div {
-		padding-top: 0px;
+	padding-top: 0px;
 }
 
 blockquote {
-		margin: 1rem 0px;
+	margin: 1rem 0px;
 }
 
 li .mathjax-block, li p {
-		margin: 0.5rem 0px;
+	margin: 0.5rem 0px;
 }
 
 li {
-		margin: 0px;
-		position: relative;
+	margin: 0px;
+	position: relative;
 }
 
 blockquote > :last-child {
-		margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 blockquote > :first-child, li > :first-child {
-		margin-top: 0px;
+	margin-top: 0px;
 }
 
 .footnotes-area {
-		color: rgb(136, 136, 136);
-		margin-top: 0.714rem;
-		padding-bottom: 0.143rem;
-		white-space: normal;
+	color: rgb(136, 136, 136);
+	margin-top: 0.714rem;
+	padding-bottom: 0.143rem;
+	white-space: normal;
 }
 
 #write .footnote-line {
-		white-space: pre-wrap;
+	white-space: pre-wrap;
 }
 
 @media print {
-		body, html {
-				border: 1px solid transparent;
-				height: 99%;
-				break-after: avoid-page;
-				break-before: avoid-page;
-				font-variant-ligatures: no-common-ligatures;
-		}
+	body, html {
+		border: 1px solid transparent;
+		height: 99%;
+		break-after: avoid-page;
+		break-before: avoid-page;
+		font-variant-ligatures: no-common-ligatures;
+	}
 
-		#write {
-				margin-top: 0px;
-				padding-top: 0px;
-				border-color: transparent !important;
-		}
+	#write {
+		margin-top: 0px;
+		padding-top: 0px;
+		border-color: transparent !important;
+	}
 
-		.export * {
-				-webkit-print-color-adjust: exact;
-		}
+	.export * {
+		-webkit-print-color-adjust: exact;
+	}
 
-		html.blink-to-pdf {
-				font-size: 13px;
-		}
+	html.blink-to-pdf {
+	font-size: 13px;
+	}
 
-		.export #write {
-				padding-left: 32px;
-				padding-right: 32px;
-				padding-bottom: 0px;
-				break-after: avoid-page;
-		}
+	.export #write {
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 0px;
+	break-after: avoid-page;
+	}
 
-		.export #write::after {
-				height: 0px;
-		}
+	.export #write::after {
+	height: 0px;
+	}
 
-		.is-mac table {
-				break-inside: avoid;
-		}
+	.is-mac table {
+	break-inside: avoid;
+	}
 }
 
 .footnote-line {
-		margin-top: 0.714em;
-		font-size: 0.7em;
+	margin-top: 0.714em;
+	font-size: 0.7em;
 }
 
 a img, img a {
-		cursor: pointer;
+	cursor: pointer;
 }
 
 pre.meta-block {
-		font-size: 0.8rem;
-		min-height: 0.8rem;
-		white-space: pre-wrap;
-		background-color: rgb(204, 204, 204);
-		display: block;
-		overflow-x: hidden;
-		background-position: initial initial;
-		background-repeat: initial initial;
+	font-size: 0.8rem;
+	min-height: 0.8rem;
+	white-space: pre-wrap;
+	background-color: rgb(204, 204, 204);
+	display: block;
+	overflow-x: hidden;
+	background-position: initial initial;
+	background-repeat: initial initial;
 }
 
 p > .image:only-child:not(.img-error) img, p > img:only-child {
-		display: block;
-		margin: auto;
+	display: block;
+	margin: auto;
 }
 
 #write.first-line-indent p > .image:only-child:not(.img-error) img {
-		left: -2em;
-		position: relative;
+	left: -2em;
+	position: relative;
 }
 
 p > .image:only-child {
-		display: inline-block;
-		width: 100%;
+	display: inline-block;
+	width: 100%;
 }
 
 #write .MathJax_Display {
-		margin: 0.8em 0px 0px;
+	margin: 0.8em 0px 0px;
 }
 
 .math-block {
-		width: 100%;
+	width: 100%;
 }
 
 .math-block:not(:empty)::after {
-		display: none;
-}
-
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus {
-		outline: 0px;
-		box-shadow: none;
+	display: none;
 }
 
 .task-list-item {
-		position: relative;
-		list-style-type: none;
+	position: relative;
+	list-style-type: none;
 }
 
 .task-list-item.task-list-item {
-		padding-left: 0px;
+	padding-left: 0px;
 }
 
 .task-list-item > input {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		margin-left: -1.2em;
-		margin-top: calc(1em - 10px);
-		border: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: -1.2em;
+	margin-top: calc(1em - 10px);
+	border: none;
 }
 
 .math {
-		font-size: 1rem;
+	font-size: 1rem;
 }
 
 .toc {
-		min-height: 3.58rem;
-		position: relative;
-		font-size: 0.9rem;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 10px;
-		border-bottom-left-radius: 10px;
+	min-height: 3.58rem;
+	position: relative;
+	font-size: 0.9rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .toc-content {
-		position: relative;
-		margin-left: 0px;
+	position: relative;
+	margin-left: 0px;
 }
 
 .toc-content::after, .toc::after {
-		display: none;
+	display: none;
 }
 
 .toc-item {
-		display: block;
-		color: rgb(65, 131, 196);
+	display: block;
+	color: rgb(65, 131, 196);
 }
 
 .toc-item a {
-		text-decoration: none;
+	text-decoration: none;
 }
 
 .toc-inner:hover {
-		text-decoration: underline;
+	text-decoration: underline;
 }
 
 .toc-inner {
-		display: inline-block;
-		cursor: pointer;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .toc-h1 .toc-inner {
-		margin-left: 0px;
-		font-weight: 700;
+	margin-left: 0px;
+	font-weight: 700;
 }
 
 .toc-h2 .toc-inner {
-		margin-left: 2em;
+	margin-left: 2em;
 }
 
 .toc-h3 .toc-inner {
-		margin-left: 4em;
+	margin-left: 4em;
 }
 
 .toc-h4 .toc-inner {
-		margin-left: 6em;
+	margin-left: 6em;
 }
 
 .toc-h5 .toc-inner {
-		margin-left: 8em;
+	margin-left: 8em;
 }
 
 .toc-h6 .toc-inner {
-		margin-left: 10em;
+	margin-left: 10em;
 }
 
 @media screen and (max-width: 48em) {
-		.toc-h3 .toc-inner {
-				margin-left: 3.5em;
-		}
+	.toc-h3 .toc-inner {
+		margin-left: 3.5em;
+	}
 
-		.toc-h4 .toc-inner {
-				margin-left: 5em;
-		}
+	.toc-h4 .toc-inner {
+		margin-left: 5em;
+	}
 
-		.toc-h5 .toc-inner {
-				margin-left: 6.5em;
-		}
+	.toc-h5 .toc-inner {
+		margin-left: 6.5em;
+	}
 
-		.toc-h6 .toc-inner {
-				margin-left: 8em;
-		}
+	.toc-h6 .toc-inner {
+		margin-left: 8em;
+	}
 }
 
 a.toc-inner {
-		font-size: inherit;
-		font-style: inherit;
-		font-weight: inherit;
-		line-height: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	line-height: inherit;
 }
 
 .footnote-line a:not(.reversefootnote) {
-		color: inherit;
+	color: inherit;
 }
 
 .attr {
-		display: none;
+	display: none;
 }
 
 .fn-count::after {
-		content: ".";
+	content: ".";
 }
 
 code, pre, samp, tt {
-		font-family: var(--monospace);
+	font-family: var(--monospace);
 }
 
 kbd {
-		margin: 0px 0.1em;
-		padding: 0.1em 0.6em;
-		font-size: 0.8em;
-		color: rgb(36, 39, 41);
-		background-color: rgb(255, 255, 255);
-		border: 1px solid rgb(173, 179, 185);
-		border-top-left-radius: 3px;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
-		border-bottom-left-radius: 3px;
-		box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset;
-		white-space: nowrap;
-		vertical-align: middle;
-		background-position: initial initial;
-		background-repeat: initial initial;
+	margin: 0px 0.1em;
+	padding: 0.1em 0.6em;
+	font-size: 0.8em;
+	color: rgb(36, 39, 41);
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(173, 179, 185);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-position: initial initial;
+	background-repeat: initial initial;
 }
 
 .comment {
-		color: rgb(162, 127, 3);
-		opacity: 0.8;
-		font-family: var(--monospace);
+	color: rgb(162, 127, 3);
+	opacity: 0.8;
+	font-family: var(--monospace);
 }
 
 code {
-		text-align: left;
+	text-align: left;
 }
 
 a.print-anchor {
-		white-space: pre !important;
-		border: none !important;
-		display: inline-block !important;
-		position: absolute !important;
-		width: 1px !important;
-		right: 0px !important;
-		outline: 0px !important;
-		text-shadow: initial !important;
-		background-position: 0px 0px !important;
-		background-repeat: initial initial !important;
+	white-space: pre !important;
+	border: none !important;
+	display: inline-block !important;
+	position: absolute !important;
+	width: 1px !important;
+	right: 0px !important;
+	outline: 0px !important;
+	text-shadow: initial !important;
+	background-position: 0px 0px !important;
+	background-repeat: initial initial !important;
 }
 
 .inline-math .MathJax_SVG .noError {
-		display: none !important;
+	display: none !important;
 }
 
 .html-for-mac .inline-math-svg .MathJax_SVG {
-		vertical-align: 0.2px;
+	vertical-align: 0.2px;
 }
 
 .math-block .MathJax_SVG_Display {
-		text-align: center;
-		margin: 0px;
-		position: relative;
-		text-indent: 0px;
-		max-width: none;
-		max-height: none;
-		min-height: 0px;
-		min-width: 100%;
-		width: auto;
-		overflow-y: hidden;
-		display: block !important;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	text-indent: 0px;
+	max-width: none;
+	max-height: none;
+	min-height: 0px;
+	min-width: 100%;
+	width: auto;
+	overflow-y: hidden;
+	display: block !important;
 }
 
 .MathJax_SVG_Display, .inline-math .MathJax_SVG_Display {
-		width: auto;
-		margin: inherit;
-		display: inline-block !important;
+	width: auto;
+	margin: inherit;
+	display: inline-block !important;
 }
 
 .MathJax_SVG .MJX-monospace {
-		font-family: var(--monospace);
+	font-family: var(--monospace);
 }
 
 .MathJax_SVG .MJX-sans-serif {
-		font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 .MathJax_SVG {
-		display: inline;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-		zoom: 90%;
-		text-indent: 0px;
-		text-align: left;
-		text-transform: none;
-		letter-spacing: normal;
-		word-spacing: normal;
-		word-wrap: normal;
-		white-space: nowrap;
-		float: none;
-		direction: ltr;
-		max-width: none;
-		max-height: none;
-		min-width: 0px;
-		min-height: 0px;
-		border: 0px;
-		padding: 0px;
-		margin: 0px;
+	display: inline;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	zoom: 90%;
+	text-indent: 0px;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	float: none;
+	direction: ltr;
+	max-width: none;
+	max-height: none;
+	min-width: 0px;
+	min-height: 0px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .MathJax_SVG * {
-		transition: none;
+	transition: none;
 }
 
 .MathJax_SVG_Display svg {
-		vertical-align: middle !important;
-		margin-bottom: 0px !important;
-		margin-top: 0px !important;
+	vertical-align: middle !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
 }
 
 .os-windows.monocolor-emoji .emoji {
-		font-family: "Segoe UI Symbol", sans-serif;
+	font-family: "Segoe UI Symbol", sans-serif;
 }
 
 .diagram-panel > svg {
-		max-width: 100%;
+	max-width: 100%;
 }
 
 [lang="flow"] svg, [lang="mermaid"] svg {
-		max-width: 100%;
-		height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 [lang="mermaid"] .node text {
-		font-size: 1rem;
+	font-size: 1rem;
 }
 
 table tr th {
-		border-bottom-width: 0px;
+	border-bottom-width: 0px;
 }
 
 video {
-		max-width: 100%;
-		display: block;
-		margin: 0px auto;
+	max-width: 100%;
+	display: block;
+	margin: 0px auto;
 }
 
 iframe {
-		max-width: 100%;
-		width: 100%;
-		border: none;
+	max-width: 100%;
+	width: 100%;
+	border: none;
 }
 
 .highlight td, .highlight tr {
-		border: 0px;
+	border: 0px;
 }
 
 svg[id^="mermaidChart"] {
-		line-height: 1em;
+	line-height: 1em;
 }
 
 mark {
-		background-color: rgb(255, 255, 0);
-		color: rgb(0, 0, 0);
-		background-position: initial initial;
-		background-repeat: initial initial;
+	background-color: rgb(255, 255, 0);
+	color: rgb(0, 0, 0);
+	background-position: initial initial;
+	background-repeat: initial initial;
 }
 
 .html-inline .plain, .html-inline strong, mark .inline-math, mark strong {
-		color: inherit;
+	color: inherit;
 }
 
 mark .meta {
-		color: rgb(0, 0, 0);
-		opacity: 0.3 !important;
+	color: rgb(0, 0, 0);
+	opacity: 0.3 !important;
 }
 
 
