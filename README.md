@@ -1,4 +1,4 @@
-# KcCSS Framework
+# KnowsCount Typora Theme
 
 ![programming language](https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 
@@ -8,31 +8,27 @@
 
 ### Simple, as that.
 
-Whilst being a responsive Framework, it is also easy to use. 
-
-### Fast, as lightning. 
-
-The only 26KB-Sized CSS file is just gonna be fast online. 
+Whilst everything orchestrated to be simple, it is also elegantly designed.
 
 ---
 
 ## What is KcCSS?
 
-When the front-end developers are trying to develope a website, spending a whole bunch of time on developing a CSS stylesheet that solves the **compatibility of browsers**, **gorgeousness**, and the **size of file**. And this here is an open-source solution: a CSS framework. However, KcCSS is a 
+An beautiful theme designed for markdown editor [Typora](https://typora.io).
 
-- Minimal, Concise CSS framework, born for front-end development where text is what is impoartant.
-- Lightweight code to 'make loading fast again'.
-- Compatible with main browsers and in-App browsers. 
-
+- Easy, Concise CSS code.
+- Born for text typesetting
+- Minimal, just like Typora
+- Seamless, Distractions free
 - ...
 
-**Note: The project is still at the beginning, and thus does not have all features able to reach.**
+**Note: The project is still at the beginning, and thereby does not have all features.**
 
 ****
 
 ## Features
 
-One can always take a look [here](http://ebooks.knowscount.cc) as a demo of her. 
+One can always take a look [here](http://ebooks.knowscount.cc) as a (online!) demo of her. 
 
 ## Usage
 
@@ -40,7 +36,8 @@ One can always take a look [here](http://ebooks.knowscount.cc) as a demo of her.
 ```bash
 git clone https://github.com/KnowsCount/KcCSS.git
 ```
-2. move style.css to wherever needed (and edit whatev one wants, do open a pull request to commit your code if any new functionality are developed pls pls pls)
+2. Move `kc.css` into your typora theme folder
+3. Choose the theme
 
 
 ## To-Dos
