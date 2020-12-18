@@ -44,7 +44,3 @@ git clone https://github.com/KnowsCount/KcCSS.git
 
 - [ ] Code annotation
 - [ ] Make more styles
-
-## Buy Me A Coffee
-
-![img](http://docs.knowscount.cc/wp-content/uploads/2020/07/IMG_138520200705-095413.jpg)
